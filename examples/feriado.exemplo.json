@@ -1,0 +1,9 @@
+{
+    "tipo": "Pausa de feriado",
+    "mes": 9,
+    "dia": 7,
+    "dia_semana": "Segunda",
+    "horario": "00:00-23:59",
+    "destino": "Desligar",
+    "audio": "pausa_feriado_0709"
+}

@@ -1,0 +1,31 @@
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Collections do Postman trazem login, senha e token preenchidos
+*.postman_collection.json
+*.postman_environment.json
+postman/
+
+# Dependências e artefatos
+/vendor/
+node_modules/
+*.log
+storage/logs/
+
+# Dados reais de clientes, capturas de tela e exports
+dados-reais/
+capturas/
+*.csv
+*.xlsx
+
+# Editor e sistema
+.idea/
+.vscode/
+.DS_Store
+
+# Logs de execução (contêm o estado dos planos)
+logs/
